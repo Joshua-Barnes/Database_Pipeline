@@ -3,3 +3,4 @@
 
 2) Use Python to create a connection to an postgresql database.
 3) Use Python to upload the data aquired from the api response to the database. 
+
