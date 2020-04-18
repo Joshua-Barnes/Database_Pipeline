@@ -1,10 +1,6 @@
 import json
 import requests
 import pandas as pd
-#postgress password: onethrough8
-# Api Key: 0cfbea9e43e0970262b7f589b8a44bfc
-# Format the display so that all of the columns and rows are able to be shown:
-
 
 # Adjust the display settings so that all of the contents of the rows/columns can be seen
 pd.set_option('display.max_rows', None)
