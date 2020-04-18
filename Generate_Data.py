@@ -196,13 +196,3 @@ def main():
     return master_city_data
 main()
 
-'''
-    # Establish a counter to help iterate through the rows
-    counter = 0
-    # Loop though the 'API_Call' column in city_api_calls, call the api, and get the response
-    for x in city_api_calls.iterrows():
-        call_api = requests.get(city_api_calls.loc[counter][1])
-        response_json = call_api.json()
-        print(city_api_calls.loc[counter][0], "api response: ", response_json)
-        counter = counter + 1
-'''
