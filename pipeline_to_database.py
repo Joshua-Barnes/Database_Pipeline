@@ -46,36 +46,5 @@ def insert_into_postgresql():
 
 
 insert_into_postgresql()
-#############################################################################################################################################
 
-'''
-def insert_into_database():
-    # call get_connection to get database connection
-    connection = get_connection()
 
-    # Create a cursor so to execute queries
-    cursor = connection.cursor()
-
-    # Get the city name from Generate_data.py
-    city_name = get_city_name()
-
-    # Get the date from Generate_data.py
-    city_date = get_date_data()
-
-    # Get the temperature from Generate_data.py
-    city_temp = get_temp_data()
-
-    #insert_into_table = ''''INSERT INTO public.weather_api_log VALUES (?, ?, ?);''''
-
-    # Insert the data from the api into the table in postgress
-    cursor.execute("INSERT INTO public.weather_api_log VALUES (%s, %s, %s)", (city_name, city_date, city_temp))
-    connection.commit()
-    connection.close()
-
-insert_into_database()
-
-# Print PostgreSQL version
-    #cursor.execute("SELECT version();")
-    #record = cursor.fetchone()
-    #print("You are connected to - ", record,"\n")
-'''
