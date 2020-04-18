@@ -6,6 +6,7 @@
 
 
 *File Descriptions:
+
 Generate_Data.py:
 This Python file calls the OpenWeatheMap API, stores the responses as JSON, extracts specific data (city name, date, and temperature) and stores it all in a data frame. 
 
